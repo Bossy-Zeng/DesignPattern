@@ -1,0 +1,12 @@
+package Visitor;
+
+/**
+ * Created by ‘¯≤©ÍÕ on 2017/3/30.
+ * ≈Æ»À¿‡
+ */
+public class WoMan extends Person{
+    @Override
+    public void Accept(Action visitor) {
+        visitor.GetWomanConclusion(this);
+    }
+}
